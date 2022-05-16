@@ -1,0 +1,87 @@
+:root{
+	--el-fill-color-blank: var(--vscode-editor-background);
+	--el-input-border-radius:0;
+	--el-border-radius-base:0;
+	--el-text-color-regular:var(--vscode-inputOption-activeForeground);
+	--el-bg-color-overlay:var(--vscode-dropdown-listBackground);
+	--el-fill-color-light:var(--vscode-dropdown-background);
+
+	--el-border-color-lighter:var(--vscode-badge-background);
+	--el-border-color:var(--vscode-badge-background);
+	--el-border-color-light:var(--vscode-badge-background);
+	--el-border-color-hover:var(--vscode-badge-background);
+
+	--el-color-primary:var(--vscode-testing-iconPassed)
+}
+:root .el-button{
+	--el-button-hover-border-color:var(--vscode-testing-iconPassed);
+	--el-button-active-border-color:var(--vscode-testing-iconPassed);
+	--el-button-hover-text-color:var(--vscode-testing-iconPassed);
+	--el-button-active-text-color: var(--vscode-testing-iconPassed);
+
+	--el-button-hover-bg-color:var(--vscode-dropdown-background);
+}
+:root .el-button--danger{
+	--el-button-hover-border-color:var(--vscode-errorForeground);
+	--el-button-active-border-color:var(--vscode-errorForeground);
+	--el-button-hover-text-color:var(--vscode-errorForeground);
+	--el-button-active-text-color: var(--vscode-errorForeground);
+
+	--el-button-hover-bg-color:var(--vscode-dropdown-background);
+}
+:root .el-button--text[disabled]{
+	color: var(--vscode-badge-background)!important;;
+}
+:root .el-button--text:focus, .el-button--text:hover{
+	color:var(--vscode-testing-iconPassed);
+}
+:root .el-select{
+	--el-select-input-focus-border-color:var(--vscode-testing-iconPassed);
+}
+
+:root .el-tag.el-tag--success{
+	--el-tag-border-color:var(--vscode-editor-focusedStackFrameHighlightBackground);
+	--el-tag-bg-color:var(--vscode-editor-focusedStackFrameHighlightBackground);
+}
+:root .el-tag.el-tag--danger{
+	--el-tag-border-color:var(--vscode-editor-linkedEditingBackground);
+	--el-tag-bg-color:var(--vscode-editor-linkedEditingBackground);
+}
+:root .el-tag.el-tag--info{
+	--el-tag-border-color:var(--vscode-editorMarkerNavigationInfo-headerBackground);
+	--el-tag-bg-color:var(--vscode-editorMarkerNavigationInfo-headerBackground);
+}
+
+.el-popper.is-light.el-popover{
+	font-size: 1rem;
+	padding: 15px 17px;
+}
+.el-popconfirm__main {
+	margin-bottom: 12px;
+}
+
+.el-popconfirm__action .el-button{
+	font-size: 1rem;
+}
+.el-popconfirm__action{
+	text-align: right;
+}
+button.customer:not(.is-disabled){
+	border-color: var(--vscode-testing-iconPassed)!important;
+	background-color: var(--vscode-testing-iconPassed)!important;
+	color:var(--vscode-button-foreground)!important;
+}
+.el-dropdown-menu__item:not(.is-disabled):focus {
+	background-color: var(--vscode-dropdown-listBackground);
+	color:var(--vscode-button-foreground);
+}
+li,ul,ol{
+	list-style-type: none;
+}
+.el-scrollbar__view.el-dropdown__list{
+	padding: 10px 10px;
+	font-size: 1rem;
+}
+.total-wrapper{
+	color: var(--vscode-charts-purple);
+}
