@@ -50,8 +50,12 @@
 :root .el-tag.el-tag--info{
 	--el-tag-border-color:var(--vscode-editorMarkerNavigationInfo-headerBackground);
 	--el-tag-bg-color:var(--vscode-editorMarkerNavigationInfo-headerBackground);
+	color: var(--vscode-foreground);
 }
-
+.el-tag.el-tag--warning {
+	--el-tag-bg-color: var(--vscode-list-filterMatchBackground);
+	--el-tag-border-color: var(--vscode-list-filterMatchBackground);
+}
 .el-popper.is-light.el-popover{
 	font-size: 1rem;
 	padding: 15px 17px;

@@ -39,7 +39,7 @@
         <el-table
           :data="envData"
           style="width: 100%"
-          @filter-change="(filters: any) => filteredValue = filters.type || []"
+          @filter-change="(filters: any) => filteredValue = filters.type || ['variable']"
           @selection-change="(val) => (multipleSelection = val)"
         >
           <el-table-column type="selection" width="55" />

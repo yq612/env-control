@@ -8,6 +8,10 @@
 	"engines": {
 		"vscode": "^1.47.0"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yq612/env-control"
+	},
 	"icon": "source/icon.png",
 	"categories": [
 		"Other"

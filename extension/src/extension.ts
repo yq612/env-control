@@ -162,9 +162,9 @@ class EnvControl {
   _getHtmlForWebview() {
     const webview = this._panel.webview;
 
-    const scriptUri = this._asWebviewUri("source", "env-control.umd.js");
+    const scriptUri = this._asWebviewUri("source", "static/env-control.umd.js");
     const resetUri = this._asWebviewUri("source", "reset.css");
-    const stylesMainUri = this._asWebviewUri("source", "style.css");
+    const stylesMainUri = this._asWebviewUri("source", "static/style.css");
 
     const nonce = getNonce();
 

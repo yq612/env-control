@@ -10,5 +10,6 @@ export default defineConfig({
       name: "envControl",
       fileName: (format) => `env-control.${format}.js`,
     },
+    outDir: "../extension/source/static",
   },
 });
