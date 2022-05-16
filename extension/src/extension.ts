@@ -47,6 +47,7 @@ class EnvControl {
       column || vscode.ViewColumn.One,
       getWebviewOptions(extensionUri)
     );
+    panel.iconPath = vscode.Uri.joinPath(extensionUri, "source", "icon.png");
 
     EnvControl.revive(panel, extensionUri);
   }

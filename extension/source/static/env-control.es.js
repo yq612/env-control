@@ -19595,7 +19595,7 @@ const _hoisted_10 = /* @__PURE__ */ createTextVNode("\u6279\u91CF\u5220\u9664");
 const _hoisted_11 = /* @__PURE__ */ createTextVNode("\u6CE8\u91CA");
 const _hoisted_12 = /* @__PURE__ */ createTextVNode("\u6587\u672C");
 const _hoisted_13 = /* @__PURE__ */ createTextVNode("\u53D8\u91CF");
-const _hoisted_14 = /* @__PURE__ */ createTextVNode("\u7A7A\u767D\u884C");
+const _hoisted_14 = /* @__PURE__ */ createTextVNode("\u7A7A\u767D");
 const _hoisted_15 = /* @__PURE__ */ createTextVNode("\u4FDD\u5B58");
 const _hoisted_16 = /* @__PURE__ */ createTextVNode("\u53D6\u6D88");
 const _hoisted_17 = /* @__PURE__ */ createTextVNode("\u7F16\u8F91");
@@ -19834,7 +19834,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
                       { text: "\u53D8\u91CF", value: "variable" },
                       { text: "\u6CE8\u91CA", value: "annotation" },
                       { text: "\u6587\u672C", value: "text" },
-                      { text: "\u7A7A\u767D\u884C", value: "blank" }
+                      { text: "\u7A7A\u767D", value: "blank" }
                     ],
                     "filtered-value": filteredValue.value,
                     "filter-method": (value, row) => row.type === value

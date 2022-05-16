@@ -53,7 +53,7 @@
               { text: '变量', value: 'variable' },
               { text: '注释', value: 'annotation' },
               { text: '文本', value: 'text' },
-              { text: '空白行', value: 'blank' },
+              { text: '空白', value: 'blank' },
             ]"
             :filtered-value="filteredValue"
             :filter-method="(value, row) => row.type === value"
@@ -62,7 +62,7 @@
               <el-tag v-if="scope.row.type === 'annotation'" type="info">注释</el-tag>
               <el-tag v-if="scope.row.type === 'text'" type="danger">文本</el-tag>
               <el-tag v-if="scope.row.type === 'variable'" type="success">变量</el-tag>
-              <el-tag v-if="scope.row.type === 'blank'" type="warning">空白行</el-tag>
+              <el-tag v-if="scope.row.type === 'blank'" type="warning">空白</el-tag>
             </template>
           </el-table-column>
 

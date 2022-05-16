@@ -82,6 +82,7 @@ class EnvControl {
         }
         // 否则创建新的面板
         const panel = vscode.window.createWebviewPanel(EnvControl.viewType, "环境变量控制器", column || vscode.ViewColumn.One, (0, tool_1.getWebviewOptions)(extensionUri));
+        panel.iconPath = vscode.Uri.joinPath(extensionUri, "source", "icon.png");
         EnvControl.revive(panel, extensionUri);
     }
     static revive(panel, extensionUri) {

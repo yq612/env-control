@@ -1,7 +1,7 @@
 {
 	"name": "env-control",
 	"description": "环境变量控制器",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"publisher": "yq612",
 	"private": true,
 	"license": "MIT",
