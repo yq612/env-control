@@ -35,7 +35,7 @@ export class FileManager {
       const reg = /\w*.env.?([\W\w\s\u4E00-\u9FA5]*)$/g;
       const result = reg.exec(fileName);
       if (!result) {
-        break;
+        continue;
       } else {
         const name = result[1];
         const filePath = path.join(this.folderPath, fileName);
